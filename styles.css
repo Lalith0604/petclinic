@@ -1,0 +1,295 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header div{
+    display: flex;
+    flex-direction: row;
+    background-color:white;
+    margin-left: 10%;
+}
+.in-open{
+    width: 75%;
+    margin-left: 12%;
+}
+.in-open ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    text-align: left;
+}
+
+
+header a{
+    margin: 50px;
+   
+}
+header img{
+    height: 120px;
+    width: 25%;
+}
+footer{
+    background-color: rgb(24, 23, 23);
+    display: flex;
+    flex-direction: row;
+    height: 150px;
+    color:white;
+}
+footer div{
+    text-align: center;
+    border: 1px;
+    width: 33.33%;
+    border: 1px solid black;
+}
+footer ul{
+    list-style-type: none
+}
+footer li{
+    margin-top:2%;
+}
+main{
+    padding: 0px;
+    margin: 0px;
+}
+.details{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    color: black;
+}
+
+.img-box img{
+    width: 100%;
+    border-radius: 50px;
+}
+
+/*doctor info*/
+.doctorInfo{
+    position: relative;
+    color:white;
+    background-color:  rgb(255, 255, 255);
+    height: 25rem;
+    width: 100%;
+}
+.p2{
+    position: absolute;
+    left: 40%;
+    top:25%;
+   
+    width:49%;
+    
+}
+
+.doctorInfo strong{
+    position: absolute;
+    left: 50%;
+    top:15%;
+}
+.img-box2{
+    background: brown;
+    width: 25%;
+    position: relative;
+    left: 13%;
+    top:15%;
+    height: 65%;
+    border-radius: 100% 0% 25% 50%;
+}
+.doctorInfo .img-box2 img{
+    border-radius: 20px;
+    position: relative;
+    left:5%;
+    top:-1%;
+    
+    width: 80%;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+.text-box{
+    color: black;
+}
+
+/*appointment*/
+
+.container {
+    max-width: 100%;
+    margin: auto;
+    
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.container h1 {
+    text-align: center;
+}
+
+.container form {
+    width: 50%;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left:38%;
+}
+
+.container label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+.container input {
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-bottom: 1px solid black;
+
+    background-color: rgb(247, 226, 226);
+}
+
+.container button {
+    width: 25%;
+    padding: 10px;
+    background: brown;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    position: relative;
+    left: 15%;
+}
+
+/*infrastructure*/
+.infra{
+    height: 400px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+
+}
+.infra h1{
+    position: relative;
+    left:45%;
+    color:black;
+    
+}
+.infra div{
+    position: relative;
+    top:20%;
+    margin-right: 50px;
+    width:25%;
+    justify-content: center;
+    background-color: brown;
+    height: 60%;
+    border:1px solid black;
+    border-radius: 100% 0% 25% 50%;
+}
+.infra img{
+    border-radius:20px;
+    position: relative;
+    top:22%;
+    left:25%;
+    height: 50%;
+    width: 50%;
+    color: white;
+    border:1px solid white;
+}
+.svr h2{
+    position: relative;
+    top:22%;
+    left:40%;
+    color:white;
+}
+/*faq*/
+.whole {
+    width: 75%;
+    margin: auto;
+    text-align: center;
+}
+.whole > h1 {
+    letter-spacing: 3px;
+    margin: 1.5rem 0;
+}
+.faq {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    margin: 10px 0;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.anotation {
+    width: 100%;
+    background-color: white;
+    color: rgba(0, 0, 0, 0.8);
+    cursor: pointer;
+    font-size: 1.2rem;
+    padding: 1rem 1.5rem;
+    border: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+    transition: background-color 0.4s;
+}
+.anotation:hover {
+    background-color: #f1f7f5;
+}
+.pannal {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.6s ease-out;
+    background-color: #f1f7f5;
+    padding: 0 1.5rem;
+}
+.pannal p {
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 1rem;
+    line-height: 1.5;
+    margin: 1rem 0;
+}
+.faq.active .pannal {
+    max-height: 500px; /* Large enough to fit any content */
+    padding: 1.5rem;
+}
+/*service*/
+.service{
+    height: 400px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.service h2{
+    position: relative;
+    left:45%;
+    top:5%;
+    color:black;
+}
+.service div{
+    width:25%;
+    height: 50%;
+    justify-content: center;
+    background-color: brown;
+    border-radius: 100% 0% 25% 50%;
+    margin-right: 25%;
+    position: relative;
+    top:30%;
+    left: 10%;
+}
+.service img{
+    border-radius:20px;
+    position: relative;
+    top:25%;
+    left:25%;
+    height: 50%;
+    width: 50%;
+    
+}
+.service h3{
+    position: relative;
+    top:35%;
+    left:36%;
+    color:black;
+}
+
